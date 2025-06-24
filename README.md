@@ -91,6 +91,7 @@ The backend includes automated tests using `pytest`.
 If your application is running via Docker Compose, you can execute the tests without stopping the main containers:
 
 ```bash
+cd sleep_frontend
 docker compose run --rm sleep_backend_test
 ```
 
@@ -99,6 +100,7 @@ docker compose run --rm sleep_backend_test
 Alternatively, if you're inside the backend container:
 
 ```bash
+cd sleep_backend
 docker exec -it sleep_backend pytest -v tests/test_api.py
 ```
 
