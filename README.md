@@ -59,7 +59,7 @@ Make sure you have the following installed:
 2. **Navigate to the frontend folder** (where the `docker-compose.yml` is located):
 
    ```bash
-   cd sleepcheck_frontend
+   cd sleep_frontend
    ```
 
 3. **Run everything with Docker Compose**:
@@ -77,9 +77,9 @@ Make sure you have the following installed:
 If you want to run just the backend:
 
 ```bash
-cd sleepcheck_backend
-docker build -t sleepcheck-backend .
-docker run -d -p 5000:5000 --name sleepcheck-backend sleepcheck-backend
+cd sleep_backend
+docker build -t sleep_backend .
+docker run -d -p 5000:5000 --name sleep_backend sleep_backend
 ```
 
 Then open [http://localhost:5000/openapi](http://localhost:5000/openapi)
