@@ -52,8 +52,8 @@ Make sure you have the following installed:
 1. **Clone the repositories**:
 
    ```bash
-   git clone https://github.com/thiagosnuness/sleepcheck_frontend.git
-   git clone https://github.com/thiagosnuness/sleepcheck_backend.git
+   git clone https://github.com/thiagosnuness/sleep_frontend.git
+   git clone https://github.com/thiagosnuness/sleep_backend.git
    ```
 
 2. **Navigate to the frontend folder** (where the `docker-compose.yml` is located):
@@ -111,5 +111,5 @@ This project is licensed under the **MIT License**.
 For any questions, feedback, or suggestions, feel free to reach out:
 
 - **Thiago Nunes** - [GitHub Profile](https://github.com/thiagosnuness)
-- **SleepCheck Backend**: [https://github.com/thiagosnuness/sleepcheck_backend](https://github.com/thiagosnuness/sleepcheck_backend)
-- **SleepCheck Frontend**: [https://github.com/thiagosnuness/sleepcheck_frontend](https://github.com/thiagosnuness/sleepcheck_frontend)
+- **SleepCheck Backend**: [https://github.com/thiagosnuness/sleep_backend](https://github.com/thiagosnuness/sleep_backend)
+- **SleepCheck Frontend**: [https://github.com/thiagosnuness/sleep_frontend](https://github.com/thiagosnuness/sleep_frontend)
